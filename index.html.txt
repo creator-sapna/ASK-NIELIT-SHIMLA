@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask NIELIT Shimla</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #007bff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #0056b3;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?education,college') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .hero .btn {
+            background: #ffcc00;
+            color: #000;
+            padding: 12px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .hero .btn:hover {
+            background: #e6b800;
+        }
+
+        /* Features Section */
+        .features {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .features h2 {
+            font-size: 2rem;
+            color: #007bff;
+        }
+
+        .features p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>Ask NIELIT Shimla</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Welcome to Ask NIELIT Shimla</h1>
+        <p>Your One-Stop Guide for Courses, Admissions & More!</p>
+        <a href="courses.html" class="btn">Explore Courses</a>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <h2>Why Choose Us?</h2>
+        <p>Get all information about NIELIT Shimla courses, fees, eligibility, and admissions in one place.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Ask NIELIT Shimla | Developed by [Your Name]
+    </div>
+
+</body>
+</html>
